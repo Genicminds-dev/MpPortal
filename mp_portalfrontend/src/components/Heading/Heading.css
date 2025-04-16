@@ -1,0 +1,52 @@
+.logosize {
+  width: 80px;
+}
+.head {
+  background-color: #fff;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 1030;
+}
+
+.logo-left {
+  display: flex;
+  align-items: center;
+  margin-left: 90px;
+}
+
+.logo-right {
+  display: flex;
+  align-items: center;
+  margin-right: 90px;
+}
+
+.logos-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gradient-btn {
+  background: linear-gradient(155deg, #ff4e4e 0%, #fff279 100%);
+  color: #fff !important;
+  border: 0;
+}
+@media (max-width: 990px) {
+  .logos-center,
+  .text-muted {
+    display: none !important;
+  }
+  .logosize {
+    width: 50px;
+  }
+}
+@media (max-width: 1200px) {
+  .logo-left {
+    margin-left: 0px !important;
+  }
+
+  .logo-right {
+    margin-right: 0px !important;
+  }
+}

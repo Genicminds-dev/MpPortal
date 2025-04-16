@@ -1,0 +1,55 @@
+
+
+
+  /* Global Styles */
+  
+  
+  /* Popup Styling */
+  .popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 5px 70px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    z-index: 1000;
+    opacity: 1;
+    transition: opacity 0.4s ease, transform 0.4s ease; /* Smooth transitions for both opacity and positioning */
+  }
+  
+  .popup-title {
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(37, 37, 37);
+  }
+  
+  /* Horizontal line (divider) */
+  .popup-divider {
+    margin: 10px 0;
+    border: none;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.1); /* Less opacity for the divider */
+  }
+  
+  .popup-subtitle {
+    font-size: 14px;
+    color: #888888;
+  }
+  
+  /* Optional animation for smoother fade-in/out */
+  .popup-show {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.4s ease, transform 0.4s ease;
+  }
+  
+  .popup-hide {
+    opacity: 0;
+    transform: translate(-50%, -40%); /* Moves slightly upward as it fades out */
+    transition: opacity 0.4s ease, transform 0.4s ease;
+  }
+  

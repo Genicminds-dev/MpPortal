@@ -1,0 +1,57 @@
+.landing-body .landing-banner{
+	/* background: url(../../assets/images/landing/slider1.jpg); */
+	background-color: none;
+	background-size: contain;
+	background-repeat: no-repeat;
+ }
+
+/*.landing-body .landing-banner
+{background: linear-gradient(155deg, #FF4E4E 0%, #FFF279 100%) !important;}*/
+
+.landing-body .landing-page-wrapper {
+  top: 100px;
+}
+.landing-body .section {
+  padding: 2.375rem 0;
+}
+
+.landing-body .section-bg1 {
+  background-color: #f5e9df;
+}
+.landing-main-footer p{color: #fff; margin-bottom: 0px;}
+.footer p{margin-bottom: 0px !important;}
+
+.btn.btn-primary01-gradient {
+  background: linear-gradient(155deg, #FF4E4E 0%, #FFF279 100%);
+  color: #fff !important;
+  border: 0;
+}
+.login-rightside h3{text-shadow: 1px 2px 2px #333;}
+.login-rightside img {
+  border: 5px solid #fff;
+  border-radius: 37px;
+}
+.bg-white p a{color: #333 !important;}
+.glightbox.card {
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+.glightbox.card h6{padding-top: 10px; font-size: 15px;}
+#file-export_wrapper .dt-buttons{margin-bottom: 10px;}
+#file-export_wrapper .dt-buttons .buttons-copy{background-color: rgb(var(--success-rgb)) !important;}
+#file-export_wrapper .dt-buttons .buttons-csv{background-color: rgb(var(--primary-tint3-rgb)) !important;}
+#file-export_wrapper .dt-buttons .buttons-excel{background-color: rgb(var(--warning-rgb)) !important;}
+#file-export_wrapper .dt-buttons .buttons-pdf{background-color: rgb(var(--danger-rgb)) !important;}
+.home-proving-image img{width: 100% !important;}
+.landing-body .section-bg {
+  background-color: #f7e7e0;
+}
+.form-select, .form-control, .input-group-text{border: 1px solid #ccc;}
+.view-all-btn{z-index: 999;}
+
+.footer {
+    padding-inline-start: 0rem;
+    position: relative;
+    z-index: 9;
+  }
+  .lang-dropdown .form-select{border: none !important;}

@@ -1,0 +1,21 @@
+.bg-light-blue {
+  background-color: #e3f2fd;
+}
+
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(114, 146, 188) transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: rgb(114, 146, 188);
+  border-radius: 4px;
+}

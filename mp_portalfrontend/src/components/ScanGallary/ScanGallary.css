@@ -1,0 +1,61 @@
+.custom-card {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.custom-card-header {
+  background-color: #43589e;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding: 7px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.custom-card-body {
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+.custom-card-body p {
+  font-size: 0.8rem;
+  color: #444;
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+}
+
+.custom-card-body p strong {
+  color: #43589e;
+  margin-right: 8px;
+}
+
+.custom-card-footer {
+  background-color: white;
+  padding: 8px;
+  border-top: 2px solid #e0e0e0;
+  text-align: center;
+}
+
+.custom-card-footer .download-btn {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #43589e;
+  color: white;
+}
+
+.custom-card-footer .download-btn:hover {
+  background-color: #7b8589;
+  color: white;
+}
+
+.no-entries {
+  font-size: 0.8rem;
+  color: #666;
+  text-align: center;
+}
